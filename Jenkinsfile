@@ -1,7 +1,7 @@
 pipeline {
                 options { timestamps() }
 		environment {
-                	registry = "ValKn/jenkins"
+                	registry = "valkn/jenkins"
                 	registryCredential = '571fc560-2ac8-4c18-bb93-248cb04ba89f'
                 	dockerImage = ''
             	}
