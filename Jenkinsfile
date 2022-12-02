@@ -2,7 +2,7 @@ pipeline {
                 options { timestamps() }
 		environment {
                 	registry = "valkn/jenkins"
-                	registryCredential = '571fc560-2ac8-4c18-bb93-248cb04ba89f'
+                	registryCredential = 'DockerP'
                 	dockerImage = ''
             	}
                 agent none
